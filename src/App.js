@@ -3,7 +3,7 @@ import './App.css';
 import Carousel from 'react-elastic-carousel';
 import Item from './item';
 import ham from './img/ham.png';
-import mic from './img/mic.png';
+
 
 export default function App() {
   const breakPoints = [
@@ -72,7 +72,7 @@ export default function App() {
       </div>
       <div className="mt-36 m-10 ">
         <div className="styling-example">
-          <Carousel itemsToShow={4}>
+          <Carousel itemsToShow={4} breakPoints={breakPoints}>
             <Item>
               <div className=" -100 bg-black">
                 <p className="text-sm bg-black m-1">The Statesman</p>
