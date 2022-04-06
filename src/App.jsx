@@ -1,3 +1,4 @@
+import React from 'react'
 import guest from './img/guest.png';
 import './App.css';
 import Carousel from 'react-elastic-carousel';
